@@ -257,8 +257,8 @@
             e.preventDefault();
             Email.send({
                 SecureToken : "da2c2ec9-4fbe-4a38-928a-deae2fbc49fc",
-                To : 'rjyama@gmail.com',
-                From : $("#email").val(),
+                To : $("#email").val(),
+                From : 'rjyama@gmail.com',
                 Subject : "This is the subject",
                 Body : "And this is the body"
             }).then(
